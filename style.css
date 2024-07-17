@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: lavender;
+    font-family: voyage;
+}
+
+nav i {
+    font-size: 1.5vmax;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    ;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    box-shadow: 0 2px 5px white;
+    width: 100%;
+    height: 10%;
+    transition: 0.5s;
+}
+
+ul {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 3vmax;
+}
+
+ul>li {
+    margin-bottom: 10%;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s;
+}
+
+ul a:hover {
+    border-color: white;
+}
+
+.close {
+    display: none;
+}
+
+h1 {
+    color: red;
+    position: absolute;
+    margin-top: 1%;
+    left: 40%;
+    font-size: 50px;
+}
+
+.first {
+    position: absolute;
+    right: 2%;
+    color: white;
+    font-size: 30px;
+    margin-top: 1%;
+}
+
+.container1 {
+    height: 65%;
+    width: 100%;
+    background-image: url(https://cdn.dribbble.com/userupload/4152266/file/original-37222876d45eea88172736d04ec7ebb0.png?resize=1504x1128);
+    overlay: hidden;
+    margin-top: 1%;
+    background-position: 0% 33%;
+    background-size: cover;
+}
+.container2{
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    left: 0%;
+    margin-top: 1%;
+    background-image: url(https://cdn.dribbble.com/userupload/11300356/file/still-835f8d913a735e99d5f179cf5bb60c0b.png?resize=400x300&vertical=center);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container3{
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    left: 25%;
+    margin-top: 1%;
+    background-image: url(https://cdn.dribbble.com/users/4039698/screenshots/20185230/media/67fe26eddea470a22ad70767693ba43a.png?resize=400x300&vertical=center);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container4{
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    margin-top: 1%;
+    background-image: url(https://cdn.dribbble.com/userupload/11576438/file/original-e4e19096569401763aef1b683baa1f30.png?resize=1024x768);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container5{
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    margin-top: 1%;
+    background-image: url(https://cdn.dribbble.com/users/1787323/screenshots/16402925/media/2a23bfb48e4e57537a955b10dde095fa.png?resize=1000x750&vertical=center);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
